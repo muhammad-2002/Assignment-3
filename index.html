@@ -49,7 +49,7 @@
       }
       P {
         font-size: 14px;
-        color: #424247;
+        color: rgba(19, 19, 24, 0.6);
       }
 
       body {
@@ -58,8 +58,8 @@
     </style>
   </head>
   <body>
-    <header class="w-full md:w-[85%] mx-auto">
-      <div class="navbar bg-base-100">
+    <header class="w-[95%] md:w-[85%] mx-auto">
+      <div class="navbar p-0 bg-base-100 mb-7">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -112,6 +112,83 @@
           >
         </div>
       </div>
+      <!-- banner section start -->
+      <section>
+        <div class="carousel w-full h-[80vh]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./Images/1.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform lg:-translate-y-1/2 lg:left-32 lg:bottom-7 bottom-1 left-1/2 -translate-x-1/2 space-x-5"
+            >
+              <a href="#slide4" class="btn btn-circle bg-[#131318] text-white"
+                >❮</a
+              >
+              <a href="#slide2" class="btn btn-circle bg-[#131318] text-white"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] rounded-lg p-8 w-full lg:w-2/4 space-y-3 absolute -bottom-60 lg:right-10 md:bottom-7"
+            >
+              <h3 class="text-white text-xl lg:text-2xl font-bold">
+                Meet all the heroes from the field
+              </h3>
+              <p class="text-[#ffffff99] fo">
+                In the realm of Hockey’s, we encounter a diverse array of heroes
+                whose unwavering dedication and remarkable achievements have
+                left an indelible mark
+              </p>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./Images/4.png" class="w-full content-center" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 lg:left-32 lg:bottom-7 bottom-1 left-1/2 -translate-x-1/2 space-x-5"
+            >
+              <a href="#slide1" class="btn btn-circle bg-[#131318] text-white"
+                >❮</a
+              >
+              <a href="#slide3" class="btn btn-circle bg-[#131318] text-white"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] rounded-lg p-8 w-full lg:w-2/4 space-y-3 absolute -bottom-60 lg:right-10 md:bottom-7"
+            >
+              <h3 class="text-white text-2xl font-bold">Amazing-moment</h3>
+              <p class="text-[#ffffff99] fo">
+                In the heart-pounding climax of the hockey tournament, underdog
+                team defies the odds with a stunning last-minute goal, creating
+                an unforgettable, electric atmosphere that echoes through the
+                arena
+              </p>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./Images/3.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 lg:left-32 lg:bottom-7 bottom-1 left-1/2 -translate-x-1/2 space-x-5"
+            >
+              <a href="#slide2" class="btn btn-circle bg-[#131318] text-white"
+                >❮</a
+              >
+              <a href="#slide1" class="btn btn-circle bg-[#131318] text-white"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] rounded-lg p-8 w-full lg:w-2/4 space-y-3 absolute -bottom-60 lg:right-10 md:bottom-7"
+            >
+              <h3 class="text-white text-2xl font-bold">Frist Goal</h3>
+              <p class="text-[#ffffff99] fo">
+                The first goal of the hockey tournament unfolds as a spectacular
+                display of skill and precision, igniting a roaring wave of
+                excitement among fans
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>
