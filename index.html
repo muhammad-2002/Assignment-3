@@ -116,8 +116,8 @@
         </div>
       </div>
       <!-- banner section start -->
-      <section>
-        <div class="carousel w-full lg:h-[80vh]">
+      <section class="relative">
+        <div class="carousel w-full lg:h-[80vh] ">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="./Images/1.png" class="w-full" />
             <div
@@ -129,8 +129,9 @@
               <a href="#slide2" class="btn btn-circle bg-[#131318] text-white"
                 >❯</a
               >
-            </div>
-            <div
+            </div> 
+          </div>
+          <div
               class="bg-[#131318] rounded-lg p-8 w-full lg:w-2/4 space-y-3 absolute -bottom-60 lg:right-10 md:bottom-7"
             >
               <h3 class="text-white text-xl lg:text-2xl font-bold">
@@ -142,7 +143,7 @@
                 left an indelible mark
               </p>
             </div>
-          </div>
+
           <div id="slide2" class="carousel-item relative w-full">
             <img src="./Images/4.png" class="w-full content-center" />
             <div
@@ -193,8 +194,8 @@
         </div>
       </section>
     </header>
-    <main class="w-[95%] md:w-[85%] mx-auto">
-      <section class="">
+    <main class="w-[95%] md:w-[85%] mx-auto ">
+      <section class="mt-72 lg:mt-0">
         <div class="heading space-y-4 mb-16 mt-10">
           <h2 class="text-[#1C1C1C] font-extrabold text-4xl text-center">
             Professional Hockeys Club
@@ -507,10 +508,115 @@
             </div>
           </div>
         
-      </section>             
+      </section>  
+      
+      <!-- get touch sections  -->
+      <section class="mt-16 mb-16">
+        <div class="heading space-y-4 mb-16 mt-4">
+          <h2 class="text-[#1C1C1C] font-extrabold text-4xl text-center">
+            Get In Touch
+          </h2>
+          <p
+            class="text-[#777] text-sm font-normal md:w-[60%] mx-auto text-center"
+          >
+          "Connect with us! Your inquiries are important to us. Reach out and get in touch for swift and attentive assistance."
+          </p>
+        </div>
+        <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-4">
+          <div class="grid grid-cols-1  gap-3">
+            <!-- one -->
+            <div class="space-y-3 bg-[#BCED6D1A] p-5 rounded-lg w-full  ">
+              <div class="">
+                <img class="" src="./images/Group 1171275317.png" />
+              </div>
+              <p class="text-[rgba(19, 19, 24, 0.40)]">Phone Number</p>
+              <h2 class="text-[#414040] text-xl font-extrabold">
+                (+62) 123-321-543</h2>
+              
+            </div>
+            <!-- two -->
+            <div class="space-y-3 bg-[#FDDD5F1A] p-5 rounded-l-lg ">
+              <div class="">
+                <img class="" src="./images/Group 1171275318.png" />
+              </div>
+              <p class="text-[rgba(19, 19, 24, 0.40)]">Email</p>
+              <h2 class="text-[#414040] text-xl font-extrabold">
+                hockeys@support.com</h2>
+              
+            </div>
+            <!-- three -->
+            <div class="space-y-3 bg-[#629CF31A] p-5 rounded-lg  ">
+              <div class="">
+                <img class="" src="./images/Group 1171275321.png" />
+              </div>
+              <p class="text-[rgba(19, 19, 24, 0.40)]">Location</p>
+              <h2 class="text-[#414040] text-xl font-extrabold">
+                152/1 Mohakhali Wireless Gate</h2>
+              
+            </div>
+          </div>
+            
+          <!-- input box -->
+          <div class=" col-span-2  space-y-6 ">
+            <div class=" gap-2 grid grid-cols-1 md:grid-cols-2">
+              <label  for="name" class="font-extrabold col-span-1"> Your Name
+                  
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  class="input input-bordered w-full mt-3"
+                /></label>
+            <label for="number" class="font-extrabold"> Your Phone
+                
+              <input
+                type="number"
+                placeholder="Enter your Phone"
+                class="input input-bordered w-full mt-3"
+              /></label>
+            </div>
+            <div class=" gap-2 grid grid-cols-1 md:grid-cols-2 ">
+              <label  for="name" class="font-extrabold col-span-1"> Your Email
+                  
+                <input
+                  type="email"
+                  placeholder="Enter your Email"
+                  class="input input-bordered w-full mt-3"
+                /></label>
+            <label for="name" class="font-extrabold"> Your Subject
+                
+              <input
+                type="text"
+                placeholder="Enter your Subject"
+                class="input input-bordered w-full mt-3"
+              /></label>
+            </div>
+            <label for="Message" class=" font-extrabold">Message
+              <textarea
+              placeholder="Enter your Problem "
+              class="textarea mt-4 textarea-bordered textarea-lg w-full h-60 resize-none col-span-2"
+            ></textarea>
+            </label > 
+            <button class="btn w-full bg-common-color text-white ">
+              Send Message
+            </button>
+          </div>
+        </div>
+        <!-- socail-media -->
+        <div class="mt-9 bg-[#13131808] p-6 rounded-lg">
+          <h1 class="text-[#1C1C1C] font-extrabold text-2xl text-center">Social Media</h1>
+          <div class="flex justify-center items-center space-x-6 mt-4 ">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+
+          </div>
+        </div>
+        
+      </section>
     </main>
     <!-- footer section -->
-    <footer class="py-4 bg-[#131318] text-base-content px-3 lg:px-0">
+    <footer class="py-6 bg-[#131318] text-base-content px-3 lg:px-0">
       <div class="grid grid-cols-1 gap-6 md:grid-cols-4 md:w-[85%] mx-auto">
         <aside class="grid grid-cols-1 space-y-3">
           <h1 class="text-white text-2xl font-bold  ">Get In Touch </h1>
